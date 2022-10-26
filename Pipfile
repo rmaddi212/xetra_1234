@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+awscli = "*"
+jupyter = "*"
+boto3 = "*"
+jupyter-contrib-nbextensions = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.0"
